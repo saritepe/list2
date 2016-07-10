@@ -4,7 +4,7 @@
 	  <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>Entities.Person</class>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://ec2-54-247-185-241.eu-west-1.compute.amazonaws.com:5432/ddalijrme23c5c"/>
+			<property name="javax.persistence.jdbc.url" value="postgres://htwbcubuwwjmyu:F-Dy65cgRUDhgDrPPO0Qvd_HBz@ec2-54-247-185-241.eu-west-1.compute.amazonaws.com:5432/ddalijrme23c5c"/>
 			<property name="javax.persistence.jdbc.password" value="F-Dy65cgRUDhgDrPPO0Qvd_HBz"/>
 			 <property name="javax.persistence.jdbc.user" value="htwbcubuwwjmyu"/>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
